@@ -1,45 +1,63 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+DAVID AND GOLIATH
+=================
 
+Summary
+-------
+A small project scaffold for "David and Goliath". Contains core code, tests, and tooling to demonstrate a simple, well-documented application pattern.
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+Status
+------
+- Initial scaffold / README
+- Add implementation files and tests
 
-- It's built with components from my Responsive Tools project.
+Getting started
+---------------
+1. Clone the repository:
+	git clone <repo-url>
+2. Change into the project directory:
+	cd davidandgoliath
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+Prerequisites
+-------------
+- Git
+- A language runtime or toolchain appropriate for this project (e.g., Node.js, Python, Go) — see project files for specifics
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+Install
+-------
+- Follow the language-specific instructions in the appropriate folder (e.g., run `npm install`, `pip install -r requirements.txt`, or `go mod tidy`).
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+Usage
+-----
+- Run the main program or start the dev server as described in the relevant README (or run `make run` if a Makefile is present).
+- Example:
+  - node src/index.js
+  - python -m davidandgoliath
+  - go run ./cmd/app
 
-- A ton of other stuff.
+Development
+-----------
+- Branch from main for new features: git checkout -b feat/your-feature
+- Run linters and formatters configured in the repo
+- Add unit tests for new code and ensure all tests pass
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
+Testing
+-------
+- Run the test suite with the language/tool-specific test command (e.g., `npm test`, `pytest`, `go test ./...`)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Contributing
+------------
+- Open issues for bugs or feature requests
+- Submit pull requests with clear descriptions and tests
+- Follow the code style used in the repository
 
-(* = not included)
+License
+-------
+Specify a license file (e.g., MIT). Add LICENSE to the repo.
 
-AJ
-aj@lkn.io | @ajlkn
+Contact
+-------
+- Maintain project metadata in package files or a CONTRIBUTORS file
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Notes
+-----
+This README is a starting template. Replace placeholders with project-specific instructions and details.
